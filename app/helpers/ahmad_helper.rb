@@ -1,0 +1,2 @@
+module AhmadHelper
+end
