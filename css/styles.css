@@ -1,0 +1,11 @@
+nav a#name {
+	padding-left: 20px;
+}
+
+div.navbar-fixed nav {
+	background-color: gray;
+}
+
+ul#mobile-demo {
+	background-color: #ffff8d;
+}
