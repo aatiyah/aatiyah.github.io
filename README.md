@@ -1,3 +1,1 @@
-Ahmad Atiyah's Portfolio
-
-aatiyah.github.io
+<a href="aatiyah.github.io">Ahmad Atiyah's Portfolio</a>

@@ -8,32 +8,55 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
 </head>
 <body>
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
                 <div id="topnavlinks">
-                    <a href="/" class="brand-logo" id="name" title="Home">Ahmad Atiyah</a>
+                    <a href="index.html" class="brand-logo" id="name"><img src="images/logo.png"></a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a href="contact-me.html">Contact Me</a></li>
-                        <li><a href="http://www.linkedin.com/in/ahmadatiyah" title="Linked" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href="https://github.com/aatiyah" title="GitHub" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
-                        <li><a href="http://www.twitter.com/ahmad_atiyah" title="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a class="tooltipped" href="index.html" data-position="bottom" data-delay="50" data-tooltip="Home">Home</a></li>
+                        <li><a class="tooltipped" href="http://www.linkedin.com/in/ahmadatiyah" data-position="bottom" data-delay="50" data-tooltip="Linked" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a class="tooltipped" href="https://github.com/aatiyah" data-position="bottom" data-delay="50" data-tooltip="GitHub" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a class="tooltipped" href="http://www.twitter.com/ahmad_atiyah" data-position="bottom" data-delay="50" data-tooltip="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html">Mobile</a></li>
+                    <li><img class="responsive-img" src="images/me.jpg"></li>
+                    <li><a class="tooltipped" href="index.html" data-position="right" data-delay="50" data-tooltip="Home">Home</a></li>
+                    <li><a class="tooltipped" href="http://www.linkedin.com/in/ahmadatiyah" data-position="right" data-delay="50" data-tooltip="Linked" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a  class="tooltipped" href="https://github.com/aatiyah" data-position="right" data-delay="50" data-tooltip="GitHub" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a class="tooltipped" href="http://www.twitter.com/ahmad_atiyah" data-position="right" data-delay="50" data-tooltip="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </nav>
     </div>    
 
-    Ahmad Atiyah
+    <main>
+        <div class="row" id="contact-me">
+            <div class="card medium">
+                <div class="col">
+                    <img src="images/me.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer fixed grey darken-3">
+        <div class="container grey-text text-lighten-4">
+            © 2016 Ahmad Atiyah, rights reserved.
+        </div>
+    </footer>
+
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>

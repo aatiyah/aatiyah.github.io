@@ -1,11 +1,52 @@
+body {
+	background-color: #616161;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.nav-wrapper img {
+	max-width: 60%;
+	vertical-align: middle;
+}
+
+nav a {
+	max-height: 64px;
+}
+
 nav a#name {
 	padding-left: 20px;
 }
 
+nav a:hover {
+	color: #FFEB3B;
+}
+
+.side-nav a:hover {
+	color: gray;
+}
+
 div.navbar-fixed nav {
-	background-color: gray;
+	background-color: #424242;
 }
 
 ul#mobile-demo {
-	background-color: #ffff8d;
+	background-color: #FFEB3b;
+	text-align: center;
+}
+
+.container.grey-text.text-lighten-4 {
+	text-align: end;
+}
+
+#contact-me img {
+	max-height: 300px;
+}
+
+.parallax-container {
+	height: 350px !important;
 }
