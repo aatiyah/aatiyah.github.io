@@ -19,7 +19,7 @@ nav a {
 }
 
 nav a#name {
-	padding-left: 20px;
+	text-align: center;
 }
 
 nav a:hover {
@@ -49,4 +49,13 @@ ul#mobile-demo {
 
 .parallax-container {
 	height: 350px !important;
+}
+
+div#contact-card {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+i.material-icons {
+	vertical-align: bottom;
 }
