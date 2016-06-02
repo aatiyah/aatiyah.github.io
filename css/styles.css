@@ -44,7 +44,7 @@ ul#mobile-demo {
 }
 
 #contact-me img {
-	max-height: 300px;
+	max-height: 200px;
 }
 
 .parallax-container {
@@ -58,4 +58,28 @@ div#contact-card {
 
 i.material-icons {
 	vertical-align: bottom;
+}
+
+#projects h1, h5 {
+	text-shadow: 2px 2px #000;
+}
+
+ul.collection.with-header {
+	background-color: #424242;
+}
+
+p#linkedinlink a:hover {
+	color: #FFEB3b;
+}
+
+a#resumebtn {
+	color: gray;
+}
+
+a:hover#resumebtn {
+	color: white;
+}
+
+div.row.contact-card {
+	margin-bottom: 0px;
 }
