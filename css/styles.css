@@ -83,3 +83,8 @@ a:hover#resumebtn {
 div.row.contact-card {
 	margin-bottom: 0px;
 }
+
+div#experience.row.container li {
+	list-style-type: square;
+	margin-left: 3%;
+}
