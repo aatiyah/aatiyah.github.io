@@ -72,11 +72,11 @@ p#linkedinlink a:hover {
 	color: #FFEB3b;
 }
 
-a#resumebtn {
+a#yellowbtn {
 	color: gray;
 }
 
-a:hover#resumebtn {
+a:hover#yellowbtn {
 	color: white;
 }
 
