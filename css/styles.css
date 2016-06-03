@@ -88,3 +88,8 @@ div#experience.row.container li {
 	list-style-type: square;
 	margin-left: 3%;
 }
+
+div.logo img {
+  max-width: 80%;
+  height: 83px;
+}
